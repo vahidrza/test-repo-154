@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div style="background-color: red;" id="container" class="container">
+        <h1 id="paragraph" >Salam</h1>
+        <span>Ders.33</span>
+        <div>Fermail , Nargiz
+            <div>Sedaqet,Nurlana,Leman</div>
+        </div>
+    </div>
+
+    <script>
+        // const paragraph = document.getElementById('paragraph');
+        // console.log(paragraph.parentElement);
+        // paragraph.parentElement.style.backgroundColor = 'aqua';
+
+
+        // const container = document.querySelector('#container');
+        // console.log(container.children[1]);
+        // container.children[1].style.backgroundColor = 'blue';
+
+
+        // firstElementChild , lastElementChild
+        // console.log(container.lastElementChild);
+
+        // previousElementSibling , nextElementSibling
+        
+        // const span = document.getElementsByTagName('span')[0];
+        // console.log(span.nextElementSibling);
+        
+        // span.previousElementSibling.style.backgroundColor = 'purple';
+
+
+
+
+
+        // Object Methods
+
+        
+
+        // const user2 = {
+        //     "hobbies" : ['travel','sport']
+        // };
+
+        // const merged = Object.assign({}, user2 , user);
+
+        // console.log(merged);
+
+        // Object.freeze , Object.seal
+
+        // Object.freeze(user2);
+
+        // user2.hobbies = [];
+        // console.log(user2);
+
+        // Object.seal(user2);
+
+        // user2.hobbies = [];
+        // user2.age = 17;
+
+        // console.log(user2);
+        
+        
+
+        
+
+
+
+        const user = {"name" : "Vahid", 
+            "surname" : "Rzayev",
+            "age" : 27
+        };
+
+        for (const key in user) {
+            console.log(key);
+        }
+
+
+        // ["Vahid","Rzayev",27]
+        Object.values(user).forEach(element => {
+            console.log(element);
+        });
+
+        // const arr = [1,2,2,4,20,58];
+
+        // for (let index = 0; index < arr.length; index++) {
+        //     console.log(arr[index]);
+        // };
+
+        // arr.forEach(element => {
+        //     console.log(element);
+        // });
+        
+
+
+
+
+        
+
+        
+    </script>
+</body>
+</html>
